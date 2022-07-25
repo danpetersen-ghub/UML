@@ -50,9 +50,17 @@ skinparam DefaultFontName "Segoe UI"
 /' Declarations '/
 actor "user"
 
+box "Application" #lightblue
+participant "Login"
+participant "Form"
+participant "Data Table"
+end box
 
 /'Flow '/
 /'Step: User Logs in '/
+"user" -> "Login": Visits Webpage
+"Login" -> "Form": Enters Form
+"Form" -> "Data Table": Form Submit \nRecord Created
 
 /'END Flow '/
 @enduml
