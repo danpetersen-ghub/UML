@@ -1,0 +1,58 @@
+@startuml 
+
+/' 
+More information here:
+https://plantuml.com/sequence-diagram
+made with:
+https://plantuml-editor.kkeisuke.com/
+'/
+
+title 
+MVP1 Data Flow Architecture
+end title
+header  ""
+caption ""
+footer 
+For use by Henkel DX
+end footer
+
+
+/'STYLE'/
+'do not use UML style
+skinparam componentStyle rectangle
+
+'make appearance more neutral 
+skinparam Shadowing false
+skinparam ArrowColor #black
+skinparam InterfaceBorderColor #black
+
+skinparam RectangleBackgroundColor #lightgrey
+skinparam InterfaceBackgroundColor #white
+
+skinparam SequenceBoxBorderColor #black
+skinparam SequenceLifeLineBorderColor #black
+skinparam SequenceLifeLineBorderColor #black
+skinparam SequenceActorBorderColor #black
+skinparam SequenceBorderColor #black
+skinparam SequenceParticipantBorderColor #black
+skinparam NoteBorderColor #black
+
+skinparam QueueBackgroundColor #white
+skinparam QueueBorderColor #black
+
+skinparam ActorBackgroundColor #white
+
+'use Henkel standard font
+skinparam DefaultFontName "Segoe UI"
+
+' increase image size
+' skinparam dpi 300
+
+/' Declarations '/
+
+/'Flow '/
+
+/'Flow: User submits a form '/
+
+/'end Flow '/
+@enduml
